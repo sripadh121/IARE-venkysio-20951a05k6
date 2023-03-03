@@ -6,6 +6,6 @@ def reverserFunc(para):
     reversedWord = wordsInPara[index][::-1]
     return reversedWord + ' ' + reverserFunc(' '.join(wordsInPara[index+1:]))
 
-para = "Hi there! My name is Ujjwal"
+para = "Hi there! My name is Sripadh"
 reversed_para = reverserFunc(para)
 print(reversed_para)
