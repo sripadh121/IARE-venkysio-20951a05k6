@@ -3,7 +3,7 @@ import threading
 def reverseWord(word,lst):
     return lst.append(word[::-1])
 
-para = "Hi there! My name is Ujjwal"
+para = "Hi there! My name is Sripadh reddy"
 
 paraList = para.split(' ')
 reversedParaList = []
